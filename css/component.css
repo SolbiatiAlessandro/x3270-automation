@@ -1,0 +1,54 @@
+/* Header */
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: 1;
+}
+
+.homep .large-header {
+	background-image: url('../img/background.png');
+	background-size:     contain;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.slogo{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+	z-index: 2;
+	max-width: 100%;
+	width: 100%
+}
+
+
+.main-title {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+
+.main-title .thin {
+	font-weight: 200;
+}
+
+
+
+@media only screen and (max-width : 768px) {
+	.homep .main-title, {
+		font-size: 3em;
+	}
+}
